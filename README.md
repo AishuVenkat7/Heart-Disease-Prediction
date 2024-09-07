@@ -52,13 +52,13 @@ We implemented several supervised learning algorithms to predict heart disease. 
 - **Support Vector Classifier (SVC)**
 - **Decision Tree Classifier**
 
-   # i. K-Nearest Neighbors Classifier (KNN)
+   ### i. K-Nearest Neighbors Classifier (KNN)
       We varied the number of neighbors from 1 to 17 and calculated the test score for each. The optimal `k` value was selected based on the best score.
 
-   # ii. Support Vector Classifier (SVC)
+   ### ii. Support Vector Classifier (SVC)
       We tested three different kernels (poly, sigmoid, and rbf) to find the best model. The sigmoid kernel yielded the highest accuracy.
 
-   # iii. Decision Tree Classifier
+   ### iii. Decision Tree Classifier
       We varied the maximum number of features (from 1 to 20) and found that using 7 features produced the best results.
 
 7. **Model Evaluation**:
