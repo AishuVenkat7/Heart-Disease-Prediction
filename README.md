@@ -52,13 +52,16 @@ We implemented several supervised learning algorithms to predict heart disease. 
 - **Support Vector Classifier (SVC)**
 - **Decision Tree Classifier**
 
-   ### i. K-Nearest Neighbors Classifier (KNN)
+   i. **Logistic Regression**
+     It is a statistical model used for binary classification tasks, where the outcome is one of two possible categories (e.g., yes/no, 0/1). Instead of predicting exact       values, it estimates the probability that an observation belongs to a particular class by applying the logistic function.
+
+   ii. **K-Nearest Neighbors Classifier (KNN)**
       We varied the number of neighbors from 1 to 17 and calculated the test score for each. The optimal `k` value was selected based on the best score.
 
-   ### ii. Support Vector Classifier (SVC)
+   iii. **Support Vector Classifier (SVC)**
       We tested three different kernels (poly, sigmoid, and rbf) to find the best model. The sigmoid kernel yielded the highest accuracy.
 
-   ### iii. Decision Tree Classifier
+   iv. **Decision Tree Classifier**
       We varied the maximum number of features (from 1 to 20) and found that using 7 features produced the best results.
 
 7. **Model Evaluation**:
